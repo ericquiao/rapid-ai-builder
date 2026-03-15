@@ -9,6 +9,20 @@
 - Fast iteration over premature optimization.
 - One application per project.
 
+## Development Lifecycle
+The framework supports a simple development phase model:
+
+Idea -> POC -> Mock -> MVP -> Production
+
+- IDEA defines the product concept, users, and core workflow.
+- POC validates technologies, technical feasibility, and known limitations.
+- MOCK validates system behavior using mocked services and deterministic responses.
+- MVP replaces mocks with real integrations so the product becomes usable.
+- PRODUCTION adds reliability, security, scalability, monitoring, and deployment concerns.
+
+Important rule:
+The framework should remain stable and only be modified when a real project reveals a structural limitation.
+
 ## Default Stack
 The default recommendation is:
 - Frontend: Angular
@@ -58,6 +72,10 @@ See `commands/` for command-specific guidance.
 ## Project Structure
 ```text
 rapid-ai-builder/
+├── docs/
+│   ├── mock_design.md
+│   ├── poc_analysis.md
+│   └── project_overview.md
 ├── workflow/
 │   ├── framework_flow.md
 │   └── builder_guide.md
@@ -97,6 +115,7 @@ rapid-ai-builder/
 
 ## How To Start A New Project
 - Begin with the problem, users, and one core flow.
+- Record the current project `Phase` in `docs/project_overview.md`.
 - Confirm the default stack or choose an override during discussion.
 - Use the templates in `templates/` to keep outputs structured.
 - Use the prompts in `prompts/` to guide the AI step by step.
@@ -106,6 +125,7 @@ rapid-ai-builder/
 - Review the running localhost app first.
 - Capture issues, missing behavior, and UX friction.
 - Prioritize the next smallest useful change.
+- Move through phases intentionally: POC validates technology, Mock validates behavior, MVP replaces mocks, and Production hardens the system.
 - Keep integrations mocked until core flows are stable.
 
 ## Iteration Management

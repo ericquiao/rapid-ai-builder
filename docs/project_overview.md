@@ -7,6 +7,8 @@ This file acts as a high-level project dashboard.
 ```md
 Project Name:
 
+Phase:
+
 Project Goal:
 
 Technology Stack:

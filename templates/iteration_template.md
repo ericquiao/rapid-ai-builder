@@ -5,20 +5,19 @@ This template is used to record every iteration of the project after the initial
 
 ## Template
 ```md
-Iteration Number:
-Date:
+Iteration:
+Phase:
+Goal:
 
-Reason for Iteration
+Changes Implemented:
 
-Changes Implemented
+Files Modified:
 
-Files Modified
+New Features:
 
-New Features
+Bug Fixes:
 
-Bug Fixes
+Known Issues:
 
-Known Issues
-
-Next Planned Iteration
+Next Planned Iteration:
 ```
