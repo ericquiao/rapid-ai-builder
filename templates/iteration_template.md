@@ -11,6 +11,8 @@ Goal:
 
 Changes Implemented:
 
+Decisions:
+
 Files Modified:
 
 New Features:
@@ -18,6 +20,10 @@ New Features:
 Bug Fixes:
 
 Known Issues:
+
+Risks:
+
+Next Action:
 
 Next Planned Iteration:
 ```
